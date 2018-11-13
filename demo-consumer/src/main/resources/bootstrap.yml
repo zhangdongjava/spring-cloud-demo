@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: demo
+      profile: dev
+      uri: http://127.0.0.1:8401
+      label: master

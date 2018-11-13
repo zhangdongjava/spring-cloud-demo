@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/demo-provider/core/core.iml" filepath="$PROJECT_DIR$/demo-provider/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-api-gateway/demo-api-gateway.iml" filepath="$PROJECT_DIR$/demo-api-gateway/demo-api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-config/demo-config.iml" filepath="$PROJECT_DIR$/demo-config/demo-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-consumer/demo-consumer.iml" filepath="$PROJECT_DIR$/demo-consumer/demo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-eureka/demo-eureka.iml" filepath="$PROJECT_DIR$/demo-eureka/demo-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-parent/demo-parent.iml" filepath="$PROJECT_DIR$/demo-parent/demo-parent.iml" />

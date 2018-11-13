@@ -6,9 +6,9 @@ import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-@FeignClient(value = "provider",fallback = ItemServiceImpl.class)
+@FeignClient(value = "gateway",fallback = ItemServiceImpl.class)
 public interface ItemService {
 
-    @GetMapping("item/{id}")
+    @GetMapping("/item/{id}")
     Item findById(@PathVariable("id") int id);
 }

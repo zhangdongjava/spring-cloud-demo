@@ -32,6 +32,8 @@
         <module>../demo-consumer</module>
         <module>../demo-eureka</module>
         <module>../demo-provider</module>
+        <module>../demo-api-gateway</module>
+        <module>../demo-config</module>
     </modules>
 
     <build>
