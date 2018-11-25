@@ -9,6 +9,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 public class ZZZGitConfigApplication {
 
     public static void main(String[] args) {
+        System.out.println("服务器性能优化第一步完成!");
         SpringApplication.run(ZZZGitConfigApplication.class);
     }
 }
